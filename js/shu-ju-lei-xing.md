@@ -9,9 +9,11 @@ null == undefined //ture
 ####最大值和最小值
 Number.MAX_VALUE
 Number.MIN_VALUE
-
 ####无穷
 Infinity，可以用isFinite()判断
 ####NaN
 NaN == NaN //false
 isNaN()会尝试将值转换为数值，无法转换返回false
+####类型转换
+parseInt()最好指定第二个参数：转换时使用的基数（多少进制）
+parseFloat()只解析十进制
