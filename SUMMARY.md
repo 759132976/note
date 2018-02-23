@@ -13,5 +13,5 @@
   * [引用类型](yin-yong-lei-xing.md)
     * [Object类型](yin-yong-lei-xing/objectlei-xing.md)
     * [Array类型](yin-yong-lei-xing/arraylei-xing.md)
-    * Date类型
+    * [Date类型](yin-yong-lei-xing/datelei-xing.md)
 
