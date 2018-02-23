@@ -31,3 +31,4 @@
 *       leftContext，input字符串中lastMatch之前的文本
 *       RightContext，input字符串中lastMatch之后的文本、
 *       multiline，布尔值，表示是否所有表达式都是用多行模式
+*       $1...$9,储存第一..第九个捕获组

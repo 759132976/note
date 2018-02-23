@@ -15,4 +15,6 @@
     * [Array类型](yin-yong-lei-xing/arraylei-xing.md)
     * [Date类型](yin-yong-lei-xing/datelei-xing.md)
     * [RegExp类型](yin-yong-lei-xing/regexplei-xing.md)
+    * [Function类型](yin-yong-lei-xing/functionlei-xing.md)
+    * [基本包装类型](yin-yong-lei-xing/ji-ben-bao-zhuang-lei-xing.md)
 
