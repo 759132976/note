@@ -30,7 +30,6 @@ push和unshift返回修改后的长度，shift和pop返回弹出的项
 
 reverse、sort  
 sort会调用每项的toString方法然后比较字符串，默认升序，也可以接受比较函数
-
 ```
 function compare(value1,value2) {
     if (value1 < value2) {
@@ -42,14 +41,27 @@ function compare(value1,value2) {
     }
 }
 ```
-
 第一个参数在第二个之前返回负数，之后返回正数，相等返回0
-
 ```
 function compare(value1,value2) {
     return value2-value1;
 }
 ```
+简单的降序排序方法
+#操作方法
+contact，接收参数并返回一个数组
+slice，接收一或两个参数，返回项的起始和结束位置，参数为负数的话由数组长度加上该参数来决定位置
+splice：
+*    删除：指定第一项的位置和要删除的项数，splice(0,2)
+*    插入：指定起始位置，0和要插入的项，splice(2,0,'red')
+*    替换：指定起始位置，要删除的项数和要插入的项，splice(2,1,'red')
 
-
-
+#位置方法
+indexOf，lastIndexOf
+#迭代方法
+每个方法接收两个参数：要在每一项上运行的函数和（可选的）运行该函数的作用于对象——影响this。函数接收三个参数：数组项的值，该项在数组中的位置和数组本身
+*    every：对每一项运行函数，函数每一项都返回true，则返回true
+*    filter：对每一项运行函数，返回函数会返回true的项组成的数组
+*    forEach：对每一项运行函数，没有返回值
+*    map：对每一项运行函数，返回每次调用的结果组成的数组
+*    some：对每一项运行函数，如果有一个返回true，则返回true
