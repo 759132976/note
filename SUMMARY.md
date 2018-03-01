@@ -17,4 +17,5 @@
     * [RegExp类型](yin-yong-lei-xing/regexplei-xing.md)
     * [Function类型](yin-yong-lei-xing/functionlei-xing.md)
     * [基本包装类型](yin-yong-lei-xing/ji-ben-bao-zhuang-lei-xing.md)
+    * [单体内置对象](yin-yong-lei-xing/dan-ti-nei-zhi-dui-xiang.md)
 

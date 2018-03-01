@@ -14,3 +14,4 @@ function todo() {
 *    arguments.callee会出错，arguments.caller也会出错
 *    不能为函数的caller属性赋值
 *    未指定环境对象而调用函数，this不会转型为window，是undefined
+*    外部访问不到eval中创建的变量或函数，为eval赋值会报错
