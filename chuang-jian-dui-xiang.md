@@ -36,7 +36,7 @@ new过程：
 #### 理解原型对象
 
 * 创建函数时会创建property属性指向原型对象，原型对象会有一个constructor属性指向property属性所在的函数，Person.property.constructor指向Person
-* 每个函数的实例内部有个指针指向原型对象，在Firefox、Safari、和Chrome中可以通过\_\__proto\_\__来访问
+* 每个函数的实例内部有个指针指向原型对象，在Firefox、Safari、和Chrome中可以通过\_\__proto_\_\_来访问
 
 
 
