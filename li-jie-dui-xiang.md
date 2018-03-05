@@ -20,4 +20,4 @@
 Object.defineProperties，两个对象作为参数：第一个对象为要添加和修改属性的对象、第二个对象的属性与第一个对象中要添加或修改的属性一一对应。
 
 #读取属性的特性
-Object.getOwnPropertyDescriptor，接收属性所在的对象和属性描述符作为参数，返回一个对象。
+Object.getOwnPropertyDescriptor，接收属性所在的对象和属性描述符作为参数，返回一个对象，只能用于实例属性，要获得原型属性描述符要在原型对象上调用。
