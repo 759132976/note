@@ -20,4 +20,5 @@
     * [单体内置对象](yin-yong-lei-xing/dan-ti-nei-zhi-dui-xiang.md)
   * 面向对象程序设计
     * [理解对象](li-jie-dui-xiang.md)
+    * [创建对象](chuang-jian-dui-xiang.md)
 

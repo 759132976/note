@@ -15,3 +15,6 @@ function todo() {
 *    不能为函数的caller属性赋值
 *    未指定环境对象而调用函数，this不会转型为window，是undefined
 *    外部访问不到eval中创建的变量或函数，为eval赋值会报错
+*    修改writeable为false的属性值报错
+*    对configurable为false的属性调用delete报错，修改除writeable之外的特性报错
+*    尝试写入只指定了getter函数的属性出错，尝试读取只指定了setter函数的属性出错
