@@ -18,7 +18,7 @@
   * [基本类型的值和引用类型的值](bian-liang-3001-zuo-yong-yu-he-nei-cun-wen-ti/ji-ben-lei-xing-de-zhi-he-yin-yong-lei-xing-de-zhi.md)
   * [执行环境及作用域](bian-liang-3001-zuo-yong-yu-he-nei-cun-wen-ti/zhi-xing-huan-jing-ji-zuo-yong-yu.md)
 * [面向对象程序设计](mian-xiang-dui-xiang-cheng-xu-she-ji.md)
-  * [创建对象](chuang-jian-dui-xiang.md)
   * [理解对象](li-jie-dui-xiang.md)
+  * [创建对象](chuang-jian-dui-xiang.md)
   * [继承](ji-cheng.md)
 
