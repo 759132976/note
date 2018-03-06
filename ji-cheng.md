@@ -1,0 +1,2 @@
+ECMAScript只支持实现继承
+
