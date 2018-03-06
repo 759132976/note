@@ -1,5 +1,7 @@
 # Summary
 
+## JS
+
 * [基本概念](README.md)
   * [严格模式](js/yan-ge-mo-shi.md)
   * [数据类型](js/shu-ju-lei-xing.md)
@@ -21,4 +23,7 @@
   * [理解对象](li-jie-dui-xiang.md)
   * [创建对象](chuang-jian-dui-xiang.md)
   * [继承](ji-cheng.md)
+* [函数表达式](han-shu-biao-da-shi.md)
+  * [递归](han-shu-biao-da-shi/di-gui.md)
+  * [闭包](han-shu-biao-da-shi/bi-bao.md)
 
