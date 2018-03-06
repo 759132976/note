@@ -1,6 +1,6 @@
 # Summary
 
-## JS
+## JS基础
 
 * [基本概念](README.md)
   * [严格模式](js/yan-ge-mo-shi.md)
