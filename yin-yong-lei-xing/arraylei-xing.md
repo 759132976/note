@@ -30,7 +30,7 @@ push和unshift返回修改后的长度，shift和pop返回弹出的项
 
 reverse、sort  
 sort会调用每项的toString方法然后比较字符串，默认升序，也可以接受比较函数
-```
+```javascript
 function compare(value1,value2) {
     if (value1 < value2) {
         return -1;
@@ -42,7 +42,7 @@ function compare(value1,value2) {
 }
 ```
 第一个参数在第二个之前返回负数，之后返回正数，相等返回0
-```
+```javascript
 function compare(value1,value2) {
     return value2-value1;
 }

@@ -1,6 +1,6 @@
 `"use strict";`
 
-```
+```javascript
 function todo() {
     "use strict";
 })
