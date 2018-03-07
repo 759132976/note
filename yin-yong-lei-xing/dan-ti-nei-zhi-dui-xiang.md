@@ -33,7 +33,7 @@ round标准舍入，四舍五入
 
 返回介于0和1之间的随机数
 
-```
+```js
 function selectFrom(lowerValue, upperValue) {
     return Math.floor(Math.random() * (upperValue-lowerValue+1) + lowerValue)
 }
