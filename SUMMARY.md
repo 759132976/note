@@ -31,4 +31,5 @@
 
 * [let和const](es6/lethe-const.md)
   * [let命令](es6/lethe-const/letming-ling.md)
+  * [const命令](es6/lethe-const/constming-ling.md)
 
