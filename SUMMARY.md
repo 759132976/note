@@ -27,3 +27,8 @@
   * [递归](han-shu-biao-da-shi/di-gui.md)
   * [闭包](han-shu-biao-da-shi/bi-bao.md)
 
+## es6
+
+* [let和const](es6/lethe-const.md)
+  * [let命令](es6/lethe-const/letming-ling.md)
+
