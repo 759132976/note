@@ -5,9 +5,14 @@ DOM浏览器都会将event对象传入事件处理程序。只存在于事件处
 * this、currentTarget 表示事件处理程序当前正在处理事件的元素
 * target表示事件的实际目标
 * preventDefault()用来取消事件的默认行为
-* stopPropagation()用来阻止事件冒泡
+* stopPropagation()用来阻止事件冒泡或捕获
 
 #IE中的事件对象
 DOM0级：window.event
 DOM2级：window.event，event也会作为参数传递。
 HTML元素中：event的变量
+IE中获取事件目标最好使用event.srcElement
+####事件的属性和方法
+* srcElement：事件的目标
+* cancelBubble：设为false取消冒泡
+* returnValue：设为false取消默认行为
