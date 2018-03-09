@@ -26,6 +26,7 @@
 * [函数表达式](han-shu-biao-da-shi.md)
   * [递归](han-shu-biao-da-shi/di-gui.md)
   * [闭包](han-shu-biao-da-shi/bi-bao.md)
+* [事件](shi-jian.md)
 
 ## es6
 
