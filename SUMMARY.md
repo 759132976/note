@@ -27,6 +27,8 @@
   * [递归](han-shu-biao-da-shi/di-gui.md)
   * [闭包](han-shu-biao-da-shi/bi-bao.md)
 * [事件](shi-jian.md)
+  * [事件流](shi-jian/shi-jian-liu.md)
+  * [事件处理程序](shi-jian/shi-jian-chu-li-cheng-xu.md)
 
 ## es6
 
