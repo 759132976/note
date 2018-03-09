@@ -30,6 +30,7 @@
   * [事件流](shi-jian/shi-jian-liu.md)
   * [事件处理程序](shi-jian/shi-jian-chu-li-cheng-xu.md)
   * [事件对象](shi-jian/shi-jian-dui-xiang.md)
+  * [内存和性能](shi-jian/nei-cun-he-xing-neng.md)
 
 ## es6
 

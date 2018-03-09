@@ -16,3 +16,5 @@ IE中获取事件目标最好使用event.srcElement
 * srcElement：事件的目标
 * cancelBubble：设为false取消冒泡
 * returnValue：设为false取消默认行为
+
+#跨浏览器的事件对象
