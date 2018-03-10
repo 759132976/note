@@ -1,4 +1,14 @@
-#图像Ping
+# 图像Ping
+
 动态创建图像，使用onload和onerror事件处理程序来确定是否响应
- 
+
+```js
+var img = new Image();
+img.onload = img.onerror = function () {
+    alert('Done!');
+};
+img.src = 'http://www.example/com/test?name=Nicholas';
 ```
+
+图像Ping最常用于跟踪用户点击页面或动态广告的曝光次数。有两个缺点：一是只能发送get请求，二是无法访问服务器的响应文本。图像Ping只能用于浏览器与服务器间的单向通信
+
