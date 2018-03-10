@@ -17,9 +17,9 @@ img.src = 'http://www.example/com/test?name=Nicholas';
 * JSONP（JSON with padding，填充式JSON或参数式JSON）
 * 和JSON差不多，是被包含在函数调用中的JSON
 
-  ```js
-    callback({"name":"Nicholas"});
-  ```
+```js
+callback({"name":"Nicholas"});
+```
 
 * 由两部分组成：回调函数和数。回调函数是响应到来时应该在页面调用的函数，一般是在请求中指定的;数据就是传入回调函数中的JSON
 
@@ -37,8 +37,6 @@ document.body.insertBefore(script, document.body.firstChild);
 ```
 
 * 缺点：如果其他域不安全，很可能会再响应中夹带恶意代码；不容易确定JSONP请求失败
-
-
 
 
 
