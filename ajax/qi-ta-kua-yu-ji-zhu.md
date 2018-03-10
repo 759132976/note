@@ -36,6 +36,8 @@ script.src = "http://freegeoip.net/json/?callback=handLeResponse";
 document.body.insertBefore(script, document.body.firstChild);
 ```
 
+* 缺点：如果其他域不安全，很可能会再响应中夹带恶意代码；不容易确定JSONP请求失败
+
 
 
 
