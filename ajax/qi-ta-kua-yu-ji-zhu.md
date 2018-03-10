@@ -23,6 +23,6 @@ img.src = 'http://www.example/com/test?name=Nicholas';
 * 由两部分组成：回调函数和数据，回调函数是响应到来时应该在页面调用的函数，一般是在请求中指定的数据就是传入回调函数中的JSON
 
   http://freegeoip.net/json/?callback=handleResponse
-* 通过动态创建<script>元素来使用，为src指定一个跨域url 
+* 通过动态创建
 
 
