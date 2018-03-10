@@ -25,7 +25,7 @@ callback({"name":"Nicholas"});
 
   [http://freegeoip.net/json/?callback=handleResponse](http://freegeoip.net/json/?callback=handleResponse)
 
-* 通过动态创建&lt;script&gt;元素来使用，为src指定一个跨域url
+* 通过动态创建script元素来使用，为src指定一个跨域url
 
 ```js
 function handleResponse(response){
@@ -36,7 +36,12 @@ script.src = "http://freegeoip.net/json/?callback=handLeResponse";
 document.body.insertBefore(script, document.body.firstChild);
 ```
 
-* 缺点：如果其他域不安全，很可能会再响应中夹带恶意代码；不容易确定JSONP请求失败
+* 缺点：
+    * 如果其他域不安全，很可能会在响应中夹带恶意代码
+    * 不容易确定JSONP请求失败
 
-
-
+#Comet
+也称为服务器推送，是一种服务器向页面推送数据的技术，近乎实时
+####实现方式
+* 长轮询：页面发起请求，服务器一直保持连接打开，直到有数据可发送。发送完数据之后，浏览器关闭连接随机又发起新请求。
+* 流：浏览器向服务器发送一个请求，服务器保持连接打开，周期性的向浏览器发送数据。通过监听readstatechange事件和检测readState是否为3可以利用XHR实现HTTP流
