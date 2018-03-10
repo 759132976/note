@@ -31,6 +31,12 @@
   * [事件处理程序](shi-jian/shi-jian-chu-li-cheng-xu.md)
   * [事件对象](shi-jian/shi-jian-dui-xiang.md)
   * [内存和性能](shi-jian/nei-cun-he-xing-neng.md)
+* [Ajax](ajax.md)
+  * [XMLHTTPRequest对象](ajax/xmlhttprequestdui-xiang.md)
+  * [XMLHTTPRequest 2级](ajax/xmlhttprequest-2ji.md)
+  * [进度事件](ajax/jin-du-shi-jian.md)
+  * [跨域资源共享](ajax/kua-yu-zi-yuan-gong-xiang.md)
+  * [其他跨域技术](ajax/qi-ta-kua-yu-ji-zhu.md)
 
 ## es6
 
