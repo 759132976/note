@@ -21,11 +21,22 @@ img.src = 'http://www.example/com/test?name=Nicholas';
     callback({"name":"Nicholas"});
   ```
 
-* 由两部分组成：回调函数和数据，回调函数是响应到来时应该在页面调用的函数，一般是在请求中指定的数据就是传入回调函数中的JSON
+* 由两部分组成：回调函数和数。回调函数是响应到来时应该在页面调用的函数，一般是在请求中指定的;数据就是传入回调函数中的JSON
 
   [http://freegeoip.net/json/?callback=handleResponse](http://freegeoip.net/json/?callback=handleResponse)
 
-* 通过动态创建&lt;script&gt;元素来使用，为src指定一个跨域url 
+* 通过动态创建&lt;script&gt;元素来使用，为src指定一个跨域url
+
+```js
+function handleResponse(response){
+    alert ("You're at IP address " + response.ip + ", which is in " + response.city + ", "+ response.region_name);
+}
+var script = document.createElement("script");
+script.src = "http://freegeoip.net/json/?callback=handLeResponse"; 
+document.body.insertBefore(script, document.body.firstChild);
+```
+
+
 
 
 
