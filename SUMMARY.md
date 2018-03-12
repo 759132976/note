@@ -43,4 +43,7 @@
 * [let和const](es6/lethe-const.md)
   * [let命令](es6/lethe-const/letming-ling.md)
   * [const命令](es6/lethe-const/constming-ling.md)
+* [字符串的扩展](es6/zi-fu-chuan-de-kuo-zhan.md)
+* [数值的扩展](es6/shu-zhi-de-kuo-zhan.md)
+* [函数的扩展](es6/han-shu-de-kuo-zhan.md)
 

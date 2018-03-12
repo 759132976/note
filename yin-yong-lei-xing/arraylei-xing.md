@@ -55,7 +55,7 @@ function compare(value1,value2) {
 
 # 操作方法
 
-contact，接收参数并返回一个数组  
+concat，接收参数并返回一个数组  
 slice，接收一或两个参数，返回项的起始和结束位置，参数为负数的话由数组长度加上该参数来决定位置  
 splice：
 
