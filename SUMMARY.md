@@ -46,4 +46,5 @@
 * [字符串的扩展](es6/zi-fu-chuan-de-kuo-zhan.md)
 * [数值的扩展](es6/shu-zhi-de-kuo-zhan.md)
 * [函数的扩展](es6/han-shu-de-kuo-zhan.md)
+* [数组的扩展](es6/shu-zu-de-kuo-zhan.md)
 
