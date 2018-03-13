@@ -26,3 +26,32 @@ fn(1)
 ```
 
 * 函数提升优先级高于变量提升，不会被变量声明覆盖，但是会被变量赋值覆盖
+
+#程序题
+####找出1到100间的所有完全数
+```
+function find(n) {
+  var sum = 1;
+  var middle = Math.sqrt(n);
+  for (let i = 2; i < middle; i++) {
+    if (n % i == 0) {
+      sum += i + n / i;
+    }
+  }
+  if (Math.floor(middle) == middle) {
+    sum += middle
+  }
+  if (sum == n) {
+    return true
+  } else {
+    return false
+  }
+}
+var result = [];
+for (let i = 1; i < 101; i++) {
+  if (find(i)) {
+    result.push(i)
+  }
+}
+console.log(result);
+```
