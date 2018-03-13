@@ -48,3 +48,7 @@
 * [函数的扩展](es6/han-shu-de-kuo-zhan.md)
 * [数组的扩展](es6/shu-zu-de-kuo-zhan.md)
 
+## 笔面试总结
+
+* [西山居](bi-mian-shi-zong-jie/xi-shan-ju.md)
+
