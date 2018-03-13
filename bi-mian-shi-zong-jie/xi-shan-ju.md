@@ -76,4 +76,5 @@ for (let i = 1; i < 11; i++) {
 }
 ```
 
-js二维数组的用法
+* js二维数组的用法，不能result[i,j]要result[i][j],用的时候注意初始化：result[i]=[]
+* console.log()自动换行
