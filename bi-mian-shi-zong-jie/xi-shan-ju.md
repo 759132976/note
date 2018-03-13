@@ -9,7 +9,7 @@
   * typeof \(4\*'a'\)  // 'Number'
   * typeof优先级高于+-\*/低于括号  所以顺序是typeof 4返回'number'再乘'a'返回'NaN'
 
-![](/assets/西山居1.jpg)
+![](/assets/西山居1.jpg)  
 ![](/assets/西山居2.jpg)
 
 * new后面只跟函数，new是从右向左的
@@ -27,9 +27,11 @@ fn(1)
 
 * 函数提升优先级高于变量提升，不会被变量声明覆盖，但是会被变量赋值覆盖
 
-#程序题
-####找出1到100间的所有完全数
-```
+# 程序题
+
+#### 找出1到100间的所有完全数（除了本身以外的因数和等于其本身）
+
+```js
 function find(n) {
   var sum = 1;
   var middle = Math.sqrt(n);
@@ -55,3 +57,26 @@ for (let i = 1; i < 101; i++) {
 }
 console.log(result);
 ```
+
+####输出10行的杨辉三角形
+```js
+var result = [];
+for (let i = 1; i < 11; i++) {
+  result[i] = [];
+  result[i][1] = 1;
+  result[i][i] = 1;
+}
+for (let i = 3; i < 11; i++) {
+  for (let j = 2; j < i; j++) {
+    result[i][j] = result[i-1][j-1] + result[i-1][j]    
+  }    
+}
+for (let i = 1; i < 11; i++) {
+  var line = result[i][1];
+  for (let j = 2; j <=i; j++) {
+    line += ' ' + result[i][j]
+  }
+  console.log(line);
+}
+```
+
