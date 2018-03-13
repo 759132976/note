@@ -68,15 +68,12 @@ for (let i = 1; i < 11; i++) {
 }
 for (let i = 3; i < 11; i++) {
   for (let j = 2; j < i; j++) {
-    result[i][j] = result[i-1][j-1] + result[i-1][j]    
-  }    
+    result[i][j] = result[i - 1][j - 1] + result[i - 1][j]
+  }
 }
 for (let i = 1; i < 11; i++) {
-  var line = result[i][1];
-  for (let j = 2; j <=i; j++) {
-    line += ' ' + result[i][j]
-  }
-  console.log(line);
+  console.log(result[i].join(' '));
 }
 ```
 
+js二维数组的用法
