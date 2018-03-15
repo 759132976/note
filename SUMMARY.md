@@ -54,3 +54,7 @@
 * [西山居](bi-mian-shi-zong-jie/xi-shan-ju.md)
 * [CVTE](bi-mian-shi-zong-jie/cvte.md)
 
+## Tips
+
+* [tips](tips/tips.md)
+
