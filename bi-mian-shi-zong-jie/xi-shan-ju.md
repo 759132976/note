@@ -37,7 +37,7 @@ fn(1)
 ####js跨域
 ####盒模型
 ####MVC和MVVM
-
+[](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
 # 程序题
 
 #### 找出1到100间的所有完全数（除了本身以外的因数和等于其本身）
