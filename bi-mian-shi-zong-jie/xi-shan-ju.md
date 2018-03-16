@@ -41,6 +41,8 @@ fn(1)
 
 #### js跨域
 
+[http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html\#m3](http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html#m3)
+
 #### 盒模型
 
 #### MVC和MVVM
