@@ -8,9 +8,9 @@
 #作为值的函数
 函数可以作为参数传递，也可以作为返回值返回
 #函数内部属性
-*    arguments，有一个callee属性，指向有用这个arguments对象的函数，递归时使用解除耦合
+*    arguments，有一个callee属性，指向拥有这个arguments对象的函数，递归时使用解除耦合
 *    this，引用的是函数据以执行的环境对象
-*    caller，函数对象的属性，保存的调用当前函数的引用，全局中调用为null，实现松耦合可以通过arguments.callee.caller
+*    caller，函数对象的属性，保存着调用当前函数的引用，全局中调用为null，实现松耦合可以通过arguments.callee.caller
 
 #函数属性和方法
 ####属性
