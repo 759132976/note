@@ -7,6 +7,20 @@
 * rest参数之后不能有其他参数
 * length属性不包括rest参数，length统计的只是命名参数的数量
 
+#name属性
+* 每个函数都有一个name属性
+* 函数表达式名字比被赋值的变量权重高
+* setter、getter函数带前缀set、get
+* bind()创建的带有bound前缀
+* 通过Function构造函数创建的名字为anonymous
+
+#new.target
+若函数是作为构造函数调用，指向构造函数；否则为undefined
+
+#块级函数
+* 严格模式会被提升到块的顶部
+* 非严格模式会被提升到全局作用域
+
 #箭头函数
 * 函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象。箭头函数内部没有this，引用的外层的this
 * arguments、super、new.target也是不存在的
