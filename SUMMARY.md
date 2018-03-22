@@ -48,6 +48,7 @@
 * [函数的扩展](es6/han-shu-de-kuo-zhan.md)
 * [数组的扩展](es6/shu-zu-de-kuo-zhan.md)
 * [对象的扩展](es6/dui-xiang-de-kuo-zhan.md)
+* [结构赋值](es6/jie-gou-fu-zhi.md)
 
 ## 笔面试总结
 
