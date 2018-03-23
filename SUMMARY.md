@@ -51,6 +51,7 @@
 * [解构赋值](es6/jie-gou-fu-zhi.md)
 * [Symbol](es6/symbol.md)
 * [Set和Map](es6/sethe-map.md)
+* [迭代器和生成器](es6/die-dai-qi-he-sheng-cheng-qi.md)
 
 ## 笔面试总结
 
