@@ -39,7 +39,7 @@
   * [其他跨域技术](ajax/qi-ta-kua-yu-ji-zhu.md)
 * [DOM](dom.md)
   * [节点](dom/jie-dian.md)
-  * 选择符API
+  * [DOM扩展](dom/xuan-ze-fu-api.md)
 
 ## es6
 
