@@ -37,6 +37,9 @@
   * [进度事件](ajax/jin-du-shi-jian.md)
   * [跨域资源共享](ajax/kua-yu-zi-yuan-gong-xiang.md)
   * [其他跨域技术](ajax/qi-ta-kua-yu-ji-zhu.md)
+* [DOM](dom.md)
+  * [节点](dom/jie-dian.md)
+  * 选择符API
 
 ## es6
 
