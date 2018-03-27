@@ -9,5 +9,5 @@
 8.promise 若then里有reject的处理函数，catch能否捕获到；异步异常
 9.事件循环
 10.抽象语法树、编译过程
-11.vue优点
+11.vue优点，v-for过程
 12.jquery选择器原理
