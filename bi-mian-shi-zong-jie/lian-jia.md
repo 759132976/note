@@ -24,4 +24,4 @@ b = [...a];
 * Function.prototype.\_\_proto\_\_ == Object.prototype,Function.prototype是一个对象也是一个函数，构造函数的prototype的proto指向Object.prototype
 * Object.\_\_proto\_\_ == Function.prototype，Object是一个函数
 
-#6.模块化开发——浏览器
+#6.模块化开发——浏览器（同步加载和异步加载）
