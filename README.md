@@ -20,4 +20,5 @@ b = [...a];
 ```
 
 5.原型链，object.prototype.\_\__proto_\_\_ = null
-
+Function.\_\_proto\_\_ == Function.prototype
+Object.\_\_proto\_\_ == Function.prototype
